@@ -118,7 +118,7 @@
   </div>
 </section>
 
-
+<!--
 <section class="parallax-bg testimonial-block-bg bg-fixed overlay dark-9 padding-top-100 padding-bottom-80 ">
   <div class="container">
     <div class="text-center mb-50">
@@ -137,7 +137,7 @@
                     font-size: 44px;
                     color: #fff;
                 "></i>              
-                <!-- <img src="<?php echo base_url().'img_testimonios/'.$value->imagen; ?>" alt=""> -->
+                
               </div>
               <h2 class="white-text line-height-40">"<?php echo $value->sumilla; ?>"</h2>
               <div class="testimonial-meta font-20 white-text"><?php echo $value->contacto; ?></div>
@@ -170,6 +170,9 @@
     </div>
   </div>
 </section>
+-->
+
+
 <div class="promo-box brand-bg ptb-30 purchase-block-bg">
   <div class="container">
     <div class="col-md-12 promo-box-block">

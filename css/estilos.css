@@ -122,3 +122,10 @@ h6 {
 .primary-footer .form-group input[type="email"]::-ms-input-placeholder { 
    color: #c9f0ff;
 }
+
+
+.nav-stacked>li {
+    float: left;
+    margin-bottom: 20px;
+    width: 25%;
+}
