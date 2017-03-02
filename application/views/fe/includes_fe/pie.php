@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 widget clearfix">
-          <h2 class="white-text">Nosotros</h2>
+          <h2 class="white-text">Doble Rama</h2>
           <p><?php echo $this->be_parametros->valor("texto_footer"); ?></p>
           <h2 class="white-text">Social Media</h2>
           <ul class="social-link tt-animate ltr">
@@ -20,7 +20,11 @@
             <li><a href="<?php echo base_url(); ?>"><i class="fa fa-angle-double-right"></i> Inicio</a></li>
             <li><a href="<?php echo base_url().'nosotros/'; ?>"><i class="fa fa-angle-double-right"></i> Nosotros</a></li>
             <li><a href="<?php echo base_url().'categorias/'; ?>"><i class="fa fa-angle-double-right"></i> Productos</a></li>
+            <li><a href="<?php echo base_url().'preguntas-frecuentes/'; ?>"><i class="fa fa-angle-double-right"></i> Preguntas Frecuentes </a></li>
+            <li><a href="<?php echo base_url().'noticias/'; ?>"><i class="fa fa-angle-double-right"></i> Blog</a></li>
+            <!--
             <li><a href="<?php echo base_url().'sucursales'; ?>" ><i class="fa fa-angle-double-right"></i> Sucursales</a></li>
+            -->
             <li><a href="<?php echo base_url().'contacto'; ?>"><i class="fa fa-angle-double-right"></i> Contacto</a></li>
           </ul>
         </div>
@@ -35,13 +39,18 @@
           <div class="widget-tags">
             <h2 class="white-text">Datos de contacto</h2>
             <a href="javascript:void(0);"><?php echo $this->be_parametros->valor("telefono_frontis"); ?></a> <a href="javascript:void(0);">WhatsApp: <?php echo $this->be_parametros->valor("celular_frontis"); ?></a> 
+            <!--
             <a href="javascript:void(0);">Dirección: <?php echo $this->be_parametros->valor("direccion").' '.$this->be_parametros->valor("distrito"); ?></a>  </div>
+            -->
         </div>
       </div>
     </div>
   </div>
   <div class="secondary-footer">
-    <div class="container"> <span class="copy-text">Copyright © 2017 Todos los derechos reservados.</span> </div>
+    <div class="container"> 
+        <div class="pie col-md-6  text-left">Copyright © 2017 Todos los derechos reservados.</div> 
+        <div class="pie col-md-6 text-right">Desarrollado por: <a href="http://www.solucionesajax.com/" target="_blank">Soluciones Ajax</a></div> 
+    </div>
   </div>
 </footer>
 <!-- <div id="preloader">

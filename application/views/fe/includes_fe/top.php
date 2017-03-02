@@ -70,10 +70,11 @@
               
             </ul>
           </li>
-
+           
+          <!--
            <li class="<?php if(isset($current) and $current=="sucursales") echo 'active';?>"><a href="<?php echo base_url().'sucursales'; ?>">Sucursales</a>
-            
           </li>
+          -->
 
           <li class="<?php if(isset($current) and $current=="faqs") echo 'active';?>"><a href="<?php echo base_url().'preguntas-frecuentes'; ?>">Preguntas Frecuentes</a>
             

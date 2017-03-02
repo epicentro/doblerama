@@ -11,7 +11,7 @@
     foreach ($this->cat_productos as $key => $value) {
       if($n==5) break;
     ?>
-      <div class="col-xs-12 col-sm-6 col-md-3 fix_p">
+      <div class="col-xs-12 col-sm-6 col-md-4 fix_p">
         <div class="single_feature text-center"> 
           <i class="fa" aria-hidden="true"><img  class="img-responsive" src="<?php echo base_url().'img_categorias/'.$value->imagen?>" alt="<?php echo $value->nombre;?>"></i>
           <h4><?php echo $value->nombre?></h4>

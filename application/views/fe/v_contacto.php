@@ -1,5 +1,7 @@
 <!-- map-section -->
+<!--
 <div id="map" class="height-350"></div>
+-->
 <!-- /.map-section --> 
 
 
@@ -51,6 +53,7 @@
         </form>
       </div>
       <div class="col-md-4 col-lg-4 col-sm-12 mr-top-30">
+        <!--  
         <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
           <div class="media media-iconic">
             <div class="media-body">
@@ -63,6 +66,7 @@
             </div>
           </div>
         </div>
+        -->
         <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
           <div class="media media-iconic">
             <div class="media-body">

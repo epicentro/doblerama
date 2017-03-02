@@ -43,7 +43,7 @@ function elimina_productos(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/productos/elimina_productos";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/productos/elimina_productos";
+                var ruta="http://"+document.domain+"/be/productos/elimina_productos";
             }
 
 
@@ -62,7 +62,7 @@ function elimina_preguntas(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/preguntas/elimina_preguntas";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/preguntas/elimina_preguntas";
+                var ruta="http://"+document.domain+"/be/preguntas/elimina_preguntas";
             }
 
 
@@ -80,7 +80,7 @@ function elimina_atributos(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/atributos/elimina_atributo";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/atributos/elimina_atributo";
+                var ruta="http://"+document.domain+"/be/atributos/elimina_atributo";
             }
 
 
@@ -99,7 +99,7 @@ function elimina_atributos(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/cursos/elimina_cursos";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/cursos/elimina_cursos";
+                var ruta="http://"+document.domain+"/be/cursos/elimina_cursos";
             }
 
 
@@ -118,7 +118,7 @@ function elimina_areas(valor){
                 var ruta="http://localhost/doblerama/be/areas/elimina_areas";
 
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/areas/elimina_areas";
+                var ruta="http://"+document.domain+"/be/areas/elimina_areas";
             }
 
 
@@ -138,7 +138,7 @@ function elimina_servicios(valor){
                 var ruta="http://localhost/doblerama/be/servicios/elimina_servicios";
 
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/servicios/elimina_servicios";
+                var ruta="http://"+document.domain+"/be/servicios/elimina_servicios";
             }
 
 
@@ -158,7 +158,7 @@ function elimina_valores(valor){
                 var ruta="http://localhost/doblerama/be/valores/elimina_valores";
 
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/valores/elimina_valores";
+                var ruta="http://"+document.domain+"/be/valores/elimina_valores";
             }
 
 
@@ -178,7 +178,7 @@ function elimina_servicios_atributos(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/servicios_atributos/elimina_servicios_atributos";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/servicios_atributos/elimina_servicios_atributos";
+                var ruta="http://"+document.domain+"/be/servicios_atributos/elimina_servicios_atributos";
             }
 
 
@@ -196,7 +196,7 @@ function elimina_maquinarias_atributos(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/maquinarias_atributos/elimina_maquinarias_atributos";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/maquinarias_atributos/elimina_maquinarias_atributos";
+                var ruta="http://"+document.domain+"/be/maquinarias_atributos/elimina_maquinarias_atributos";
             }
 
 
@@ -215,7 +215,7 @@ function elimina_productos_atributos(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/productos_atributos/elimina_productos_atributos";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/productos_atributos/elimina_productos_atributos";
+                var ruta="http://"+document.domain+"/be/productos_atributos/elimina_productos_atributos";
             }
 
 
@@ -235,7 +235,7 @@ function elimina_tarifas(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/tarifas/elimina_tarifas";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/tarifas/elimina_tarifas";
+                var ruta="http://"+document.domain+"/be/tarifas/elimina_tarifas";
             }
 
 
@@ -256,7 +256,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/productos_imagenes/elimina_productos_imagenes";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/productos_imagenes/elimina_productos_imagenes";
+                var ruta="http://"+document.domain+"/be/productos_imagenes/elimina_productos_imagenes";
             }
 
 
@@ -274,7 +274,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/servicios_imagenes/elimina_servicios_imagenes";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/servicios_imagenes/banners_servicios_imagenes";
+                var ruta="http://"+document.domain+"/be/servicios_imagenes/banners_servicios_imagenes";
             }
 
 
@@ -293,7 +293,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/cursos_imagenes/elimina_cursos_imagenes";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/cursos_imagenes/banners_cursos_imagenes";
+                var ruta="http://"+document.domain+"/be/cursos_imagenes/banners_cursos_imagenes";
             }
 
 
@@ -312,7 +312,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/cursos_pdf/elimina_cursos_pdf";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/cursos_pdf/elimina_cursos_pdf";
+                var ruta="http://"+document.domain+"/be/cursos_pdf/elimina_cursos_pdf";
             }
 
 
@@ -331,7 +331,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/cursos_word/elimina_cursos_word";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/cursos_word/elimina_cursos_word";
+                var ruta="http://"+document.domain+"/be/cursos_word/elimina_cursos_word";
             }
 
 
@@ -350,7 +350,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/areas_imagenes/elimina_areas_imagenes";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/areas_imagenes/elimina_areas_imagenes";
+                var ruta="http://"+document.domain+"/be/areas_imagenes/elimina_areas_imagenes";
             }
 
 
@@ -368,7 +368,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/banners/elimina_banners";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/banners/banners_banners";
+                var ruta="http://"+document.domain+"/be/banners/banners_banners";
             }
 
 
@@ -387,7 +387,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/clientes/elimina_cliente";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/clientes/elimina_cliente";
+                var ruta="http://"+document.domain+"/be/clientes/elimina_cliente";
             }
 
 
@@ -407,7 +407,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/mapas/elimina_mapas";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/mapas/elimina_mapas";
+                var ruta="http://"+document.domain+"/be/mapas/elimina_mapas";
             }
 
 
@@ -426,7 +426,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_mapas/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_mapas/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_mapas/elimina_categoria";
             }
 
 
@@ -446,7 +446,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/parametros/elimina_parametros";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/parametros/elimina_parametros";
+                var ruta="http://"+document.domain+"/be/parametros/elimina_parametros";
             }
 
 
@@ -464,7 +464,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/locales/elimina_locales";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/locales/elimina_locales";
+                var ruta="http://"+document.domain+"/be/locales/elimina_locales";
             }
 
 
@@ -483,7 +483,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/articulos/elimina_articulos";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/articulos/elimina_articulos";
+                var ruta="http://"+document.domain+"/be/articulos/elimina_articulos";
             }
 
 
@@ -501,7 +501,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/testimonios/elimina_testimonios";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/testimonios/elimina_testimonios";
+                var ruta="http://"+document.domain+"/be/testimonios/elimina_testimonios";
             }
 
 

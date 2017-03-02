@@ -57,9 +57,9 @@ $active_record = TRUE;
 
 /*
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'fundoelm_usudobl';
-$db['default']['password'] = 'KXT;z-2=q)WV';
-$db['default']['database'] = 'fundoelm_doblerama';
+$db['default']['username'] = 'dobleram_rodri17';
+$db['default']['password'] = 'oQ&rZzd?*R)l';
+$db['default']['database'] = 'dobleram_2017';
 */
   
 $db['default']['dbdriver'] = 'mysql';

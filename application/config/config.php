@@ -15,7 +15,7 @@
 |
 */
 $config['base_url']	= 'http://localhost/doblerama/';
-//$config['base_url']	= 'http://www.fundoelmilagro.pe/doblerama/';
+//$config['base_url']	= 'http://www.doblerama.com.pe';
 
 
   

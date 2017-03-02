@@ -127,5 +127,20 @@ h6 {
 .nav-stacked>li {
     float: left;
     margin-bottom: 20px;
-    width: 25%;
+    width: 33%;
+}
+
+.pie {
+    color: #fafafa !important;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.pie a{
+  color: #fafafa !important;
+}
+
+.pie a:hover{
+  text-decoration: underline;;
+  
 }
