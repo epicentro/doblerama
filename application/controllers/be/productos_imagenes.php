@@ -225,7 +225,7 @@ class productos_imagenes extends CI_Controller {
        
        $this->validacion->validacion_login();
        $idtabla=$this->uri->segment(4);
-       $data["id"]=$id;
+       //$data["id"]=$id;
        
        //AQUI ALMACENAMOS EL ID DE LA IMAGEN A EDITAR
        $idtabla=$this->uri->segment(5);

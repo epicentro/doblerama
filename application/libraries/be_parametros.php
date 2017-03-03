@@ -79,7 +79,7 @@ class be_parametros {
     
     public function archivos_producto($id){
       
-        $strsql="select imagen,nombre,idproductos_imagenes from productos_imagenes where idproductos='$id'";
+        $strsql="select imagen,nombre,idproductos_imagenes from productos_imagenes where idproductos='$id' order by orden";
                
         $fila=$this->CI->modelo_base->consulta($strsql);
         if($fila=="0"){
@@ -118,7 +118,7 @@ class be_parametros {
     }      
     public function primera_foto($id){
       
-        $strsql="select imagen from productos_imagenes where idproductos='$id' limit 1";
+        $strsql="select imagen from productos_imagenes where idproductos='$id' and idprimera_foto='1' limit 1";
                
         $fila=$this->CI->modelo_base->c_una_fila($strsql);
         if($fila=="0"){

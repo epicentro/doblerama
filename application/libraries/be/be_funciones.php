@@ -176,7 +176,7 @@ $nombre=str_replace("°", "", $nombre);
 
    public function cantidad_fotos($id){
 
-       $strsql="select count(*) as cantidad from productos_imagenes where idproductos='".$id."'";
+       $strsql="select count(*) as cantidad from productos_imagenes where idproductos='".$id."' ";
        $fila=$this->CI->modelo_base->c_una_fila($strsql);
 
        if ($fila!="0"){

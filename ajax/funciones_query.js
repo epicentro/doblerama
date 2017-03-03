@@ -14,7 +14,7 @@ function atributos_mnto(valor){
                     if(document.domain=="localhost"){
                             var ruta="http://localhost/marissirealstate/be/inmuebles_atributos/gestiona_atributos";
                     }else{
-                        var ruta="http://"+document.domain+"/doblerama/be/inmuebles_atributos/gestiona_atributos";
+                        var ruta="http://"+document.domain+"/be/inmuebles_atributos/gestiona_atributos";
                     }
 
                     $.post(ruta, {sw:4, valores:valor, checked:1 }, llegajson, "json");  
@@ -25,7 +25,7 @@ function atributos_mnto(valor){
                      if(document.domain=="localhost"){
                             var ruta="http://localhost/marissirealstate/be/inmuebles_atributos/gestiona_atributos";
                     }else{
-                        var ruta="http://"+document.domain+"/doblerama/be/inmuebles_atributos/gestiona_atributos";
+                        var ruta="http://"+document.domain+"/be/inmuebles_atributos/gestiona_atributos";
                     }
 
                     $.post(ruta, {sw:4, valores:valor, checked:0 }, llegajson, "json");
@@ -519,7 +519,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/comentarios/elimina_comentarios";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/comentarios/elimina_comentarios";
+                var ruta="http://"+document.domain+"/be/comentarios/elimina_comentarios";
             }
 
 
@@ -537,7 +537,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/secciones/elimina_secciones";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/secciones/elimina_secciones";
+                var ruta="http://"+document.domain+"/be/secciones/elimina_secciones";
             }
 
 
@@ -555,7 +555,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_servicios/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_servicios/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_servicios/elimina_categoria";
             }
 
 
@@ -573,7 +573,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_maquinarias/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_maquinarias/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_maquinarias/elimina_categoria";
             }
 
 
@@ -591,7 +591,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_productos/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_productos/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_productos/elimina_categoria";
             }
 
 
@@ -609,7 +609,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_preguntas/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_preguntas/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_preguntas/elimina_categoria";
             }
 
 
@@ -627,7 +627,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_videos/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_videos/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_videos/elimina_categoria";
             }
 
 
@@ -645,7 +645,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_conferencias/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_conferencias/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_conferencias/elimina_categoria";
             }
 
 
@@ -663,7 +663,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                 var ruta="http://localhost/doblerama/be/categoria_cursos/elimina_categoria";
             }else{
-                var ruta="http://"+document.domain+"/doblerama/be/categoria_cursos/elimina_categoria";
+                var ruta="http://"+document.domain+"/be/categoria_cursos/elimina_categoria";
             }
 
 
@@ -687,7 +687,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                         var ruta="http://localhost/twoperfumes/be/cliente/email_disponible/";
                     }else{
-                        var ruta="http://"+document.domain+"/doblerama/be/cliente/email_disponible/";
+                        var ruta="http://"+document.domain+"/be/cliente/email_disponible/";
             }
 
           
@@ -713,7 +713,7 @@ function elimina_productos_imagenes(valor){
             if(document.domain=="localhost"){
                         var ruta="http://localhost/twoperfumes/be/producto/seo_disponible/";
                     }else{
-                        var ruta="http://"+document.domain+"/doblerama/be/producto/seo_disponible/";
+                        var ruta="http://"+document.domain+"/be/producto/seo_disponible/";
             }
 
           
