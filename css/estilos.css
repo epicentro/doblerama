@@ -144,3 +144,33 @@ h6 {
   text-decoration: underline;;
   
 }
+.precio{
+  font-size: 18px;
+  font-weight: bold;
+}
+.fa-mobile:before{
+  font-size: 26px;
+  margin-right: 5px
+
+}
+.rightimage {
+  float: right;
+  border: 1px solid #c3d5df;
+  background-color: #fff;
+  padding: 5px;
+  margin: 0 0 20px 20px;
+  background-image: none;
+}
+.leftimage {
+  float: left;
+  border: 1px solid #c3d5df;
+  background-color: #fff;
+  padding: 5px;
+  margin: 5px 5px 5px 0;
+  background-image: none;
+}
+
+.feature-accordion .panel-title a.collapsed {
+     font-weight: bold;
+}
+

@@ -42,7 +42,7 @@ class productos extends CI_Controller {
         //array('nombre_campo'=>'codigo', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Código', 'multinivel'=>'no', 'valor'=>''),
         //array('nombre_campo'=>'sumilla', 'tipo'=>'text', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Sumilla', 'multinivel'=>'no', 'valor'=>''),
         //array('nombre_campo'=>'pvr', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Precio Vta. Real', 'multinivel'=>'no', 'valor'=>''),
-        //array('nombre_campo'=>'pvp', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Precio', 'multinivel'=>'no', 'valor'=>''),
+        array('nombre_campo'=>'pvp', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Precio (S/.)', 'multinivel'=>'no', 'valor'=>''),
         //array('nombre_campo'=>'fecha', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Fecha', 'multinivel'=>'no', 'valor'=>''),
         //array('nombre_campo'=>'frecuencia', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Frecuencia', 'multinivel'=>'no', 'valor'=>''),
         //array('nombre_campo'=>'horas', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Horas', 'multinivel'=>'no', 'valor'=>''),

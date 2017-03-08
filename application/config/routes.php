@@ -56,6 +56,7 @@ $route['be/pedido/(:num)'] = "be/pedido/index/$1/";
 
 $route['preguntas-frecuentes'] = "preguntas_frecuentes/index/";
 $route['noticias/(:num)'] = "noticias/index/$1/";
+$route['blog/(:num)'] = "blog/index/$1/";
 $route['sucursal/(:any)'] = "sucursales/detalle/$1/";
 $route['clientes/(:any)'] = "clientes/index/$1/";
 $route['gracias/(:any)'] = "gracias/index/$1/";
@@ -63,7 +64,7 @@ $route['gracias/(:any)'] = "gracias/index/$1/";
 $route['productos/(:any)'] = "productos/index/$1/";
 
 $route['servicio/(:any)'] = "servicio_detalle/index/$1/";
-$route['noticia/(:any)'] = "noticia_detalle/index/$1/";
+$route['item/(:any)'] = "noticia_detalle/index/$1/";
 $route['area/(:any)'] = "area_detalle/index/$1/";
 $route['capacitacion/download/(:any)'] = "curso_detalle/download/$1/";
 $route['capacitacion/(:any)'] = "curso_detalle/index/$1/";

@@ -19,7 +19,7 @@ function abrir_popup(valor, ancho, alto){
 
 <div class="div_agregar">
 
-    <img onclick="abrir_popup('<?php echo base_url()."be/".$this->tabla."/nuevo"?>',1000,650);" src="<?php echo base_url();?>img/agregar.png" width="16" height="16" title="Agregar Nuevo"/>
+    <img onclick="abrir_popup('<?php echo base_url()."be/".$this->tabla."/nuevo"?>',1000,450);" src="<?php echo base_url();?>img/agregar.png" width="16" height="16" title="Agregar Nuevo"/>
 
 </div>
 <?php

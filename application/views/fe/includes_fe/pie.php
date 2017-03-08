@@ -6,12 +6,14 @@
         <div class="col-md-4 widget clearfix">
           <h2 class="white-text">Doble Rama</h2>
           <p><?php echo $this->be_parametros->valor("texto_footer"); ?></p>
-          <h2 class="white-text">Social Media</h2>
+          <h2 class="white-text">Redes Sociales</h2>
           <ul class="social-link tt-animate ltr">
             <li><a href="<?php echo $this->be_parametros->valor("link_facebook"); ?>"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <!--
             <li><a href="<?php echo $this->be_parametros->valor("link_twitter"); ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
            <li><a href="<?php echo $this->be_parametros->valor("link_linkedin"); ?>" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="<?php echo $this->be_parametros->valor("link_youtube"); ?>" target="_blank"><i class="fa fa-youtube-play"></i></a></li>     
+            -->
           </ul>
         </div>
         <div class="col-md-4 widget">
@@ -38,7 +40,7 @@
           </form>
           <div class="widget-tags">
             <h2 class="white-text">Datos de contacto</h2>
-            <a href="javascript:void(0);"><?php echo $this->be_parametros->valor("telefono_frontis"); ?></a> <a href="javascript:void(0);">WhatsApp: <?php echo $this->be_parametros->valor("celular_frontis"); ?></a> 
+            <a href="javascript:void(0);"><?php echo $this->be_parametros->valor("RPM"); ?></a> <a href="javascript:void(0);"><?php echo $this->be_parametros->valor("RPC"); ?></a> 
             <!--
             <a href="javascript:void(0);">Dirección: <?php echo $this->be_parametros->valor("direccion").' '.$this->be_parametros->valor("distrito"); ?></a>  </div>
             -->

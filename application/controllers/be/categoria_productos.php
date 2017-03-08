@@ -33,7 +33,7 @@ class categoria_productos extends CI_Controller {
         array('nombre_campo'=>'seo', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'SEO', 'valor'=>''),
         array('nombre_campo'=>'titulo', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Título', 'valor'=>''),
         array('nombre_campo'=>'padre_id', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Categoria Superior', 'valor'=>''),
-        array('nombre_campo'=>'sumilla', 'tipo'=>'text', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Sumilla', 'valor'=>''),
+        //array('nombre_campo'=>'sumilla', 'tipo'=>'text', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'Sumilla', 'valor'=>''),
         array('nombre_campo'=>'orden', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'no', 'rotulo'=>'orden', 'valor'=>''),
         array('nombre_campo'=>'idtipo_categoria', 'tipo'=>'varchar', 'show'=>'si', 'clave'=>'foranea', 'rotulo'=>'Tipo', 'valor'=>''),
         array('nombre_campo'=>'imagen', 'tipo'=>'varchar', 'show'=>'no', 'clave'=>'no', 'rotulo'=>'Imagen', 'valor'=>''),

@@ -19,7 +19,7 @@
             if($n<>1) $br='<br>'; else $br='';
             echo $br.$br
             ?>
-            <h2><?php echo $nombre?></h2>
+            <h2><b><?php echo $nombre?></b></h2>
 
             <?php
             if($lista_preguntas<>''){

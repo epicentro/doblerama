@@ -7,10 +7,11 @@
         <!-- Social Icon -->
         <ul class="list-inline social-top tt-animate btt">
           <li><a href="<?php echo $this->be_parametros->valor("link_facebook"); ?>"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <!--
           <li><a href="<?php echo $this->be_parametros->valor("link_twitter"); ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
           <li><a href="<?php echo $this->be_parametros->valor("link_linkedin"); ?>" target="_blank"><i class="fa fa-linkedin"></i></a></li>
           <li><a href="<?php echo $this->be_parametros->valor("link_youtube"); ?>" target="_blank"><i class="fa fa-youtube-play" ></i></a></li>
-
+         -->
           
           
         </ul>
@@ -18,7 +19,9 @@
       <div class="col-md-8 text-right">
         <ul class="topbar-cta no-margin">
           <li><i class="material-icons mr-10">&#xE0B9;</i><a href="mailto:<?php echo $this->be_parametros->valor("correo_contacto"); ?>" class="mailto"><?php echo $this->be_parametros->valor("correo_contacto"); ?></a></li>
-          <li><i class="material-icons mr-10">&#xE0CD;</i><a href="#"><?php echo $this->be_parametros->valor("telefono_frontis"); ?></a></li>
+          <li><i class="fa fa-mobile" aria-hidden="true"></i><a href="#"><?php echo $this->be_parametros->valor("RPM"); ?></a></li>
+          <li><i class="fa fa-mobile" aria-hidden="true"></i><a href="#"><?php echo $this->be_parametros->valor("RPC"); ?></a></li>
+          
         </ul>
       </div>
     </div>
@@ -80,7 +83,7 @@
             
           </li> 
           
-           <li class="<?php if(isset($current) and $current=="blogs") echo 'active';?>"><a href="<?php echo base_url().'noticias/'; ?>">Blog</a>
+           <li class="<?php if(isset($current) and $current=="blogs") echo 'active';?>"><a href="<?php echo base_url().'blog/'; ?>">Blog</a>
             
           </li>
           

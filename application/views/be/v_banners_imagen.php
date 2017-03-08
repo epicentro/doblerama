@@ -73,7 +73,7 @@ function validar(){
           <tr>
                     <td>Seleccione el archivo: </td>
                     <td>
-                      Imagen para el slide : 1920px X 700px<br/>
+                      Imagen para el slide : 2000px X 1000px<br/>
                       
                       
                     <div class="upload"><input type="file" name="imagen" id="file" /></div>

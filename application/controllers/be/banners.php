@@ -484,8 +484,8 @@ public function editar(){
         $config['allowed_types'] = 'doc|docx|xls|xlsx|pdf|txt|gif|jpg|png';
         //$config['allowed_types'] = '*';
         $config['max_size'] = '20000';
-        $config['max_width']  = '1920';
-        $config['max_height']  = '700';
+        $config['max_width']  = '2000';
+        $config['max_height']  = '1000';
         //$config['encrypt_name'] = TRUE;  //SI NO LO COMENTAMOS ENTONCES NO FUNCIONARA file_name porque el nombre estaria encriptado
         $config['file_name']=$this->tabla."_".$id."_".$aleatorio;
         $config['overwrite']=true;
@@ -510,8 +510,8 @@ public function editar(){
             $configThumb['source_image'] = $data['full_path'];
             //$configThumb['create_thumb'] = TRUE;
             $configThumb['maintain_ratio'] = TRUE;
-            $configThumb['width'] = '1920';
-            $configThumb['height'] = '700';
+            $configThumb['width'] = '2000';
+            $configThumb['height'] = '1000';
           
             $this->load->library('image_lib');
             $this->image_lib->initialize($configThumb);
@@ -532,8 +532,8 @@ public function editar(){
                                 $configThumb1['source_image'] = $data['full_path'];
                                 $configThumb1['new_image'] = $data['file_path'].$thumb;
                                 $configThumb1['maintain_ratio'] = TRUE;
-                                $configThumb1['width'] = 256;
-                                $configThumb1['height'] = 90;
+                                $configThumb1['width'] = 150;
+                                $configThumb1['height'] = 75;
 
                                 $this->image_lib->clear();
                                 $this->load->library('image_lib');

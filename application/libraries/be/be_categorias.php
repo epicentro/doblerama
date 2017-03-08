@@ -155,7 +155,7 @@ class be_categorias {
                             $strhtml.="<img class='img_link' onclick='abrir_popup(\"".base_url()."be/$tabla/v_imagen/".$fila->$idtabla."\",1000,300);' src='".base_url()."img/edit.png' width='16' height='16' title='Actualizar'/>";
                             $strhtml.="</td>";
                             $strhtml.="<td style='text-align:center'>";
-                            $strhtml.="<img class='img_link' onclick='abrir_popup(\"".base_url()."be/$tabla/v_editar/".$fila->$idtabla."\",1000,650);' src='".base_url()."img/edit.png' width='16' height='16' title='Actualizar'/>";
+                            $strhtml.="<img class='img_link' onclick='abrir_popup(\"".base_url()."be/$tabla/v_editar/".$fila->$idtabla."\",1000,450);' src='".base_url()."img/edit.png' width='16' height='16' title='Actualizar'/>";
                             $strhtml.="&nbsp;&nbsp;&nbsp;&nbsp;";
                             $strhtml.="<img class='img_link' onclick = 'javascript:elimina_$tabla(\"".$fila->$idtabla."\")' src='".base_url()."img/cancel.png' width='16' height='16' title='Eliminar'/>";
                             $strhtml.="</td>";

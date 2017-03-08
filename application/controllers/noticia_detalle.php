@@ -34,7 +34,7 @@ class noticia_detalle extends padre {
        
       
                 $strsql="select title, keyword, description, nombre, titulo, sumilla, descripcion  from secciones 
-                         where seo='Blogs' ";
+                         where seo='Blog' ";
                 $fila2=$this->modelo_base->c_una_fila($strsql);
                 $data["nombre"]=$fila2->nombre;
 

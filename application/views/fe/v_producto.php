@@ -54,9 +54,14 @@
         <br/>
         <br/>
 
-        <h3>Información inmediata</h3>
+        <h3>Precio:</h3>
+        <div class="precio">S/.500</div>
+        <br/>
+        <br/>
+
+        <h3>Información inmediata:</h3>
         <img src="<?php echo base_url()."img/whatsapp.png"; ?>">
-        <span style="font-size: 18px;margin-left: 10px; font-weight: bold;"><?php echo $this->be_parametros->valor("celular_frontis"); ?></span>
+        <span style="font-size: 18px;margin-left: 10px; font-weight: bold;"><?php echo $this->be_parametros->valor("whatsapp"); ?></span>
 
         <br/>
         <br/>

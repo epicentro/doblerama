@@ -15,7 +15,7 @@
           <div class="icon"> <a href="<?php echo base_url().'categoria/'.$cs->seo;?>"><i class="material-icons"><img src="<?php echo base_url().'img_categorias/'.$cs->imagen;?>" alt="<?php echo $cs->nombre;?>"></i> </a></div>
           <div class="desc">
             <h2><a href="<?php echo base_url().'categoria/'.$cs->seo;?>"><?php echo $cs->nombre;?></a></h2>
-            <p><?php echo $cs->sumilla;?></p>
+            <p><?php //echo $cs->sumilla;?></p>
           </div>
         </div>
       </li>                

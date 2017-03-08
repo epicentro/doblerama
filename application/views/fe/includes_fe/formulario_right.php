@@ -2,7 +2,7 @@
                     
 
                     <div class="comment-respond">
-                      <h3>Solicite mayor informaci&oacute;n llenando el siguiente formulario</h3>
+                      <h3>Solicite mayor informaci&oacute;n llenando el siguiente formulario:</h3>
                       <form action="<?php echo base_url()."procesar/grabar/"; ?>" method="POST" id="commentform">
                         <div class="form-group">
                           <div class="row">
